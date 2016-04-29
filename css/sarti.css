@@ -1,0 +1,134 @@
+.headerBar {
+    /*height: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-image: -moz-linear-gradient(top,#c7e600,#859900);
+    z-index: 10;*/
+    height: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-image: -moz-linear-gradient(top,#c7e600,#859900);
+    background-image: -webkit-linear-gradient(top,#c7e600,#859900); /* Chrome 10-25, iOS 5+, Safari 5.1+ */
+    background-image:         linear-gradient(to bottom,#c7e600,#859900); /* Chrome 26, Firefox 16+, IE 10+, Opera */
+}
+
+.dropdown-names {
+    color: #4d4d4d;
+    font-size: 20px;
+}
+
+.external
+{
+	background: url(external-link.png) no-repeat 100% 0;
+	padding: 0 20px 0 0;
+}
+
+.bottomNav {
+    margin-bottom: 0;
+    border-radius: 0;
+    height: 150px;
+    background-image: -moz-linear-gradient(top,#c7e600,#859900);
+    background-image: -webkit-linear-gradient(top,#c7e600,#859900); /* Chrome 10-25, iOS 5+, Safari 5.1+ */
+    background-image:         linear-gradient(to bottom,#c7e600,#859900); /* Chrome 26, Firefox 16+, IE 10+, Opera */
+}
+
+.head {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.lead {
+    text-align: justify;
+}
+
+.explanation {
+    font-size: 18px;
+}
+
+.link {
+   
+}
+
+.team {
+    display: block;
+    color: #666666;
+    margin-top: 10px; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+}
+
+.pubList {
+    list-style: none;
+    margin-left: 1.5em;
+}
+
+.confList {
+    list-style: none;
+    margin-right: 1.5em;
+}
+
+.pubElement {
+    margin-bottom: 1.2em;
+}
+
+.onStage {
+    margin-bottom: 0.5em;
+}
+
+.conference {
+    margin-bottom: 1em;
+} 
+
+.mail {
+    text-align:center;
+}
+
+.fig {
+   margin-top: 30px;
+   display:block;
+   position:relative;
+   width:100%;
+}
+
+figcaption {
+  /*padding: 3px;
+  bottom: 0;
+  width: 100%;
+  background: black;
+  color: white;
+  opacity: 0.5;
+  text-align: right;
+  margin-bottom: 30px;*/
+  padding: 3px;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  opacity: 1;
+  position: relative;
+  top: -26px;
+  text-align: right;
+  margin-bottom: 30px;
+}
+
+.foot_img {
+    width: auto;
+    height: 100px;
+    /*margin-left: 150px;*/
+    padding: 5px;
+}
+
+.foot_text {
+    padding: 5px;
+    color: black;
+    /*text-align: center;
+    margin-top: 5px;*/
+    font-size: 15px;
+}
